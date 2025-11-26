@@ -24,6 +24,10 @@ describe ('Cek Detail Products', () => {
          //Check Detail Product
          detailProducts.setProductBackpacks();
          detailProducts.setLabsBikeLight();
+
+         //SortProducts
+         detailProducts.setSortZA();
+         detailProducts.setSortPriceLowtoHigh();
     });
 
 
