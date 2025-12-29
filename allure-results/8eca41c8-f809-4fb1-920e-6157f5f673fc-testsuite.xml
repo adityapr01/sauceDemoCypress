@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1766568685247' stop='1766568697089'>
+    <name>Cek Fungsi Button Add Cart Produk</name>
+    <title>Cek Fungsi Button Add Cart Produk</title>
+    <test-cases>
+        <test-case start='1766568685248' status='failed' stop='1766568697085'>
+            <name>Verify untuk klik semua item add cart di sauce demo</name>
+            <title>Verify untuk klik semua item add cart di sauce demo</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `(//button[text()="Add to cart"])[4]`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `(//button[text()="Add to cart"])[4]`, but never found it.
+                    at addCartPage.setAllCart (webpack://latihan-cypress/./cypress/page/addCartPage.js:63:11)
+                    at Context.eval (webpack://latihan-cypress/./cypress/e2e/latihan-saucedemo/addCart.cy.js:29:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

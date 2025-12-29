@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1766568749322' stop='1766568757351'>
+    <name>Cek Fungsi Button Add Cart Produk</name>
+    <title>Cek Fungsi Button Add Cart Produk</title>
+    <test-cases>
+        <test-case start='1766568749323' status='passed' stop='1766568757351'>
+            <name>Verify untuk klik semua item add cart di sauce demo</name>
+            <title>Verify untuk klik semua item add cart di sauce demo</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

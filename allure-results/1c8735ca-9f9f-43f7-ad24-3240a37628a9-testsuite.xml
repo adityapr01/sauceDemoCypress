@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1766472632514' stop='1766472640405'>
+    <name>Proses E2E Sauce Demo dengan POM</name>
+    <title>Proses E2E Sauce Demo dengan POM</title>
+    <test-cases>
+        <test-case start='1766472632514' status='passed' stop='1766472640405'>
+            <name>Proses E2E dengan Metode POM Sauce Demo</name>
+            <title>Proses E2E dengan Metode POM Sauce Demo</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

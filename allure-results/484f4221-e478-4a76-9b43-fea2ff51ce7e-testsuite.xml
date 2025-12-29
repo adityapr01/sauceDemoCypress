@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1766478269248' stop='1766478281362'>
+    <name>Cek Detail Products</name>
+    <title>Cek Detail Products</title>
+    <test-cases>
+        <test-case start='1766478269249' status='passed' stop='1766478278669'>
+            <name>Melihat Detail Produk di Sauce Demo</name>
+            <title>Melihat Detail Produk di Sauce Demo</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1766478278717' status='passed' stop='1766478281361'>
+            <name>Add all Cart Product</name>
+            <title>Add all Cart Product</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

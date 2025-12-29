@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1766540634784' stop='1766540655857'>
+    <name>Cek Detail Products</name>
+    <title>Cek Detail Products</title>
+    <test-cases>
+        <test-case start='1766540634785' status='passed' stop='1766540647218'>
+            <name>Melihat Detail Produk di Sauce Demo</name>
+            <title>Melihat Detail Produk di Sauce Demo</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1766540647283' status='failed' stop='1766540655856'>
+            <name>Add all Cart Product</name>
+            <title>Add all Cart Product</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `#finish`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `#finish`, but never found it.
+                    at LoginPage.clickFinish (webpack://latihan-cypress/./cypress/page/loginPage.js:65:11)
+                    at Context.eval (webpack://latihan-cypress/./cypress/e2e/latihan-saucedemo/setProducts.cy.js:49:15)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

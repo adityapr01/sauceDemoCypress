@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1766568946184' stop='1766568952655'>
+    <name>login pada sauce demo</name>
+    <title>login pada sauce demo</title>
+    <test-cases>
+        <test-case start='1766568946184' status='passed' stop='1766568952655'>
+            <name>Login sukses dengan username dan password sesuai</name>
+            <title>Login sukses dengan username dan password sesuai</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

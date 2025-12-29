@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1766569909666' stop='1766569921748'>
+    <name>Cek Detail Products</name>
+    <title>Cek Detail Products</title>
+    <test-cases>
+        <test-case start='1766569909666' status='passed' stop='1766569921748'>
+            <name>Melihat Detail Produk di Sauce Demo</name>
+            <title>Melihat Detail Produk di Sauce Demo</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

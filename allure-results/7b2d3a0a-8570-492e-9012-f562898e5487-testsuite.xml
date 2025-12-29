@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1766569900565' stop='1766569901619'>
+    <name></name>
+    <title></title>
+    <test-cases>
+        <test-case start='1766569900566' status='broken' stop='1766569901408'>
+            <name>An uncaught error was detected outside of a test</name>
+            <title>An uncaught error was detected outside of a test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>The following error originated from your test code, not from Cypress.
+                
+                  > LoginE2E is not defined
+                
+                When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+                
+                Cypress could not associate this error to any specific test.
+                
+                We dynamically generated a new test to display this failure.</message>
+                <stack-trace>ReferenceError: The following error originated from your test code, not from Cypress.
+                
+                  > LoginE2E is not defined
+                
+                When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+                
+                Cypress could not associate this error to any specific test.
+                
+                We dynamically generated a new test to display this failure.
+                    at Suite.eval (webpack://latihan-cypress/./cypress/e2e/latihan-saucedemo/loginE2E.cy.js:5:18)
+                    at Object.create (http://localhost:53631/__cypress/runner/cypress_runner.js:169115:19)
+                    at context.describe.context.context (http://localhost:53631/__cypress/runner/cypress_runner.js:168802:27)
+                    at createRunnable (http://localhost:53631/__cypress/runner/cypress_runner.js:152799:31)
+                    at &lt;unknown> (http://localhost:53631/__cypress/runner/cypress_runner.js:152860:14)
+                    at eval (webpack://latihan-cypress/./cypress/e2e/latihan-saucedemo/loginE2E.cy.js:3:0)
+                    at eval (http://localhost:53631/__cypress/tests?p=cypress\e2e\latihan-saucedemo\loginE2E.cy.js:237:3)
+                    at eval (http://localhost:53631/__cypress/tests?p=cypress\e2e\latihan-saucedemo\loginE2E.cy.js:239:12)
+                    at eval (&lt;anonymous>)
+                    at &lt;unknown> (http://localhost:53631/__cypress/runner/cypress_runner.js:113594:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

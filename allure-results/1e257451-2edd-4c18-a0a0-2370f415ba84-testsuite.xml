@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1766569797117' stop='1766569858273'>
+    <name>Pengujian Halaman Kegiatan Aku Laku Finance</name>
+    <title>Pengujian Halaman Kegiatan Aku Laku Finance</title>
+    <test-cases>
+        <test-case start='1766569797118' status='passed' stop='1766569833551'>
+            <name>Membuka Halaman Utama dan Verifikasi Web Berhasil Terbuka</name>
+            <title>Membuka Halaman Utama dan Verifikasi Web Berhasil Terbuka</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1766569833951' status='passed' stop='1766569839377'>
+            <name>Navigasi ke Halaman Kegiatan</name>
+            <title>Navigasi ke Halaman Kegiatan</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1766569839990' status='passed' stop='1766569842172'>
+            <name>Verifikasi List Jumlah Thumbnails Video di Halaman Kegiatan</name>
+            <title>Verifikasi List Jumlah Thumbnails Video di Halaman Kegiatan</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1766569842235' status='passed' stop='1766569843754'>
+            <name>Cek Pagination pada Halaman Kegiatan tersedia</name>
+            <title>Cek Pagination pada Halaman Kegiatan tersedia</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1766569843841' status='passed' stop='1766569858273'>
+            <name>Input type Vaksin pada search bar</name>
+            <title>Input type Vaksin pada search bar</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

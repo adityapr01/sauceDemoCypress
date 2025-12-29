@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1766477407870' stop='1766477418441'>
+    <name>Cek Detail Products</name>
+    <title>Cek Detail Products</title>
+    <test-cases>
+        <test-case start='1766477407871' status='passed' stop='1766477416202'>
+            <name>Melihat Detail Produk di Sauce Demo</name>
+            <title>Melihat Detail Produk di Sauce Demo</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1766477416258' status='broken' stop='1766477418438'>
+            <name>Add all Cart Product</name>
+            <title>Add all Cart Product</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Syntax error, unrecognized expression: #add-to-cart-test.allthethings()-t-shirt-(red)</message>
+                <stack-trace>Error: Syntax error, unrecognized expression: #add-to-cart-test.allthethings()-t-shirt-(red)
+                    at find.error (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:8298:8)
+                    at tokenize (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:8964:8)
+                    at select (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:9423:20)
+                    at jQuery.find (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:7734:9)
+                    at jQuery.fn.init.find (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:9633:11)
+                    at new jQuery.fn.init (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:9748:40)
+                    at Object.query (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:17940:10)
+                    at $Cy.$$ (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:147646:57)
+                    at &lt;unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:134884:18)
+                    at Object.subjectFn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:151478:16)
+                    at $Cy.verifyUpcomingAssertions (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:150806:31)
+                    at onRetry (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:151469:15)
+                    at retryQuery (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:151482:10)
+                    at &lt;unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:151635:17)
+                    at tryCatcher (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1777:23)
+                    at Promise._settlePromiseFromHandler (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1489:31)
+                    at Promise._settlePromise (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1546:18)
+                    at Promise._settlePromiseCtx (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1583:10)
+                    at _drainQueueStep (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2381:12)
+                    at _drainQueue (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2370:9)
+                    at Async._drainQueues (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2386:5)
+                    at Async.drainQueues (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2256:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

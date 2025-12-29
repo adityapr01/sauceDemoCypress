@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1766566032654' stop='1766566033743'>
+    <name>Cek Fungsi Button Add Cart Produk</name>
+    <title>Cek Fungsi Button Add Cart Produk</title>
+    <test-cases>
+        <test-case start='1766566032656' status='broken' stop='1766566033730'>
+            <name>Verify untuk klik semua item add cart di sauce demo</name>
+            <title>Verify untuk klik semua item add cart di sauce demo</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>cy.xpath is not a function</message>
+                <stack-trace>TypeError: cy.xpath is not a function
+                    at addCartPage.setAllCart (webpack://latihan-cypress/./cypress/page/addCartPage.js:63:11)
+                    at Context.eval (webpack://latihan-cypress/./cypress/e2e/latihan-saucedemo/addCart.cy.js:29:22)
+                    at runnable.fn (http://localhost:62943/__cypress/runner/cypress_runner.js:145954:19)
+                    at callFn (http://localhost:62943/__cypress/runner/cypress_runner.js:165048:21)
+                    at Runnable.run (http://localhost:62943/__cypress/runner/cypress_runner.js:165035:7)
+                    at &lt;unknown> (http://localhost:62943/__cypress/runner/cypress_runner.js:171130:30)
+                    at PassThroughHandlerContext.finallyHandler (http://localhost:62943/__cypress/runner/cypress_runner.js:4042:23)
+                    at PassThroughHandlerContext.tryCatcher (http://localhost:62943/__cypress/runner/cypress_runner.js:1777:23)
+                    at Promise._settlePromiseFromHandler (http://localhost:62943/__cypress/runner/cypress_runner.js:1489:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
